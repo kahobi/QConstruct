@@ -11,13 +11,13 @@
 --08 NetherQ				--08 SmokedQ
 --09 NetherQ				--09 NethFac
 --10 SmokedQ				--10 NethFac
---11	SmokedQ					--11 SmokFac
+--11 SmokedQ				--11 SmokFac
 --12 SmokedQ				--12 MECondu
---13	SmokedQ					--13 MECondu
---14	SmokedQ					--14 EnCondu
---15	SmokedQ					--15 EnCondu
---16	Fuel						--16 Fuel
---
+--13 SmokedQ				--13 MECondu
+--14 SmokedQ				--14 EnCondu
+--15 SmokedQ				--15 EnCondu
+--16 Fuel					--16 Fuel
+--	
 
 local NumSect = 0				--The number of sections to be built, colum by colum
 local SectLen = 6				--7th segment in a section is shared, the start of the next.
@@ -25,7 +25,7 @@ local SectWid = 5  				--2 block spaces for the pillars are unaccounted for.
 local MENCond = false			--Adding Conduits to the floor, also accounts for facades
 local EneCond = false
 
-print("Please specify the number of sections to be built. Recommended not to exceeed 10. "local NumSect = ..."")
+print("Please specify the number of sections to be built. Recommended not to exceeed 10. "(local NumSect = ...)"")
 
 print("Please specify if ME Conduit is to to be added, true/false "local MENCond = ..."")
 	if MENCond ~= true or MENCond ~= false then
