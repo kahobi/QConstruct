@@ -25,7 +25,7 @@ local SectWid = 5  				--2 block spaces for the pillars are unaccounted for.
 local MENCond = false			--Adding Conduits to the floor, also accounts for facades
 local EneCond = false
 
-print("Please specify the number of sections to be built. Recommended not to exceeed 10. "local NumSect =( ... )"")
+print("Please specify the number of sections to be built. Recommended not to exceeed 10. "(local NumSect , ... )"")
 
 print("Please specify if ME Conduit is to to be added, true/false "local MENCond = ..."")
 	if MENCond ~= true or MENCond ~= false then
